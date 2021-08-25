@@ -1,4 +1,27 @@
+#map-container{
+    display: flex;
+}
+
+
 #mainMap{
+    border-radius: 25px;
     height: 400px;
-    width:100%
+    width:70%
+}
+
+.sidenav{
+    width:30%;
+}
+
+.sidenav > h2{
+    border-style: solid;
+    border-color: #92a8d1;
+    text-align: center;
+}
+
+#panel{
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    justify-content: space-between;
 }

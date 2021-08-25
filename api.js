@@ -44,7 +44,7 @@ function api_request(url,action,param_json,callback) {
 }
 
 function getDemoLocation() {
-    let url = API_BASE_URL;
+    let url = 'https://api.queritel.com/api/general/demo_api/demo_api.php';
 
     let request_parameter = {};
     request_parameter = {
@@ -57,6 +57,31 @@ function getDemoLocation() {
 
     api_request(url,action,param_json,function(response) {
 
+        console.log(response);
+
+        let strResponse = JSON.parse(response);
+
+        if(strResponse["status"] === "OK"){
+            
+        }
+        else{
+        
+        }
+    });
+}
+
+function getDemoUser(){
+    let url = 'https://api.queritel.com/api/general/demo_api/demo_api.php';
+    let request_parameter = {};
+    request_parameter = {
+        "user_token": "mku-djgggdlndg3fso-75664-djjxg"
+    };
+    let action = "get_user_list";
+    var param_json= JSON.stringify(request_parameter);
+
+    var 
+
+    api_request(url,action,param_json,function(response){
         console.log(response);
 
         let strResponse = JSON.parse(response);
