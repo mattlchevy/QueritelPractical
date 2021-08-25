@@ -5,7 +5,7 @@
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
     <link rel="stylesheet" href="styles.css">
-
+   
 </head>
 <body>
     <div id="map-container">
@@ -14,18 +14,16 @@
            
             <h2>Panel</h2>
             <div id='panel'>
-                <button onclick="getDemoLocation()"> <img src="./imgs/pin-point-logo.jpg" alt="Locations" width="120" height="120" > </button>
-                <button onclick="getDemoUser()"><img src="./imgs/users.png" alt="users" width="120" height="120" > </button>
+                <button onclick="getDemoLocation()"> <img src="./imgs/pin-point-logo.jpg" width="140" height="140"> </button>
+                <button onclick="getDemoUser()"> <img src="./imgs/users.png" width="140" height="140"> </button>
             </div>
         </div>
         </div>
     </div>
     
 
-    
-    <script src="./map.js">   </script>
     <script src="./api.js">   </script>
-    
+    <script src="./map.js">   </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiO0_zpn5klBiRJuvuga0G4QbWOudChZQ&libraries=places&callback=initMap"></script>
 
 </body>

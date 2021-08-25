@@ -23,5 +23,14 @@
     display: flex;
     align-self: center;
     flex-direction: row;
-    justify-content: space-between;
+    margin: 0 -40px;
+}
+
+#panel > button{
+    margin: 0 40px;
+}
+
+#panel > button:hover{
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
