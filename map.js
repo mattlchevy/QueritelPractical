@@ -11,7 +11,7 @@ function initMap(){
     fullscreenControl: true
 
 }
-    googleMap = new google.maps.Map(document.getElementById('mainMap'), settings);
+    let googleMap = new google.maps.Map(document.getElementById('mainMap'), settings);
 
     let input_group = document.createElement("div");
 

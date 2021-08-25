@@ -44,7 +44,7 @@ function api_request(url,action,param_json,callback) {
 }
 
 function getDemoLocation() {
-    let url = 'https://api.queritel.com/api/general/demo_api/demo_api.php';
+    let url = 'API_BASE_LINK';
 
     let request_parameter = {};
     request_parameter = {
@@ -71,7 +71,7 @@ function getDemoLocation() {
 }
 
 function getDemoUser(){
-    let url = 'https://api.queritel.com/api/general/demo_api/demo_api.php';
+    let url = 'API_BASE_LINK';
     let request_parameter = {};
     request_parameter = {
         "user_token": "mku-djgggdlndg3fso-75664-djjxg"
